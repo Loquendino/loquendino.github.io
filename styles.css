@@ -1,0 +1,181 @@
+/*-------------TITULO-------------*/
+.title{
+    margin-left:4%;
+    margin-right:4%;
+    background-color: rgba(255, 223, 223, 0.281);
+    color:rgb(255, 167, 167);
+    width:90%;
+    height: 30%;
+    font-size:3vw;
+    display:inline-flex;
+    border:5px solid white;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+a.teta{
+    color:rgb(255, 212, 212);
+}
+
+.llogo{
+    margin-left: 0%;
+    margin-right: auto;
+    width:15vw;
+    height:15vw;
+}
+
+.rlogo{
+    margin-left: auto;
+    margin-right: 0%;
+    width:15vw;
+    height:15vw;
+}
+
+/*-------------MENU-------------*/
+nav{
+    align-self: center;
+    margin-top: 10px;
+    margin-left:calc(4%);
+    margin-right:calc(4% + 5px);
+    width:90%;
+    height:12vh;
+}
+
+nav a{
+    float:left;
+    display:block;
+    width:calc(25% - 10px);
+    height:12vh;
+    line-height: 12vh;
+    background-color: rgba(255, 255, 255, 0.479);
+    color:rgb(255, 255, 255);
+    
+    background-color: rgba(255, 224, 224, 0.281); ;
+    text-align: center;
+    font-size: 1.5em;
+    border:5px solid white;
+}
+
+#musica { 
+    background-image: url('backgrounds/music.gif');
+    text-shadow:2px 2px green;
+    background-attachment: fixed;
+}
+#eventos{
+    background-image:url('backgrounds/melocoton.gif') ;
+    text-shadow:2px 2px orange;
+    background-attachment: fixed;
+}
+#juegos{
+    background-image: url('backgrounds/pc.gif');
+    text-shadow:2px 2px purple;
+    background-attachment: fixed;
+}
+#foto{
+    background-image: url('backgrounds/pink.gif');
+    text-shadow:2px 2px black;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 793px) {
+    nav a {
+      float: none;
+      margin-left:0;
+      margin-right:0;
+      width: 100%;
+    }
+  }
+
+/*-------------CONTENIDO-------------*/
+.container{
+    display: grid;
+    width: 90%;
+    margin-top:10px;
+    margin-left: 4%;
+    margin-right:4%;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.content{
+    width:94%;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right:auto;
+    padding-right: 1vw;
+    padding-left: 1vw;
+
+    font-size: 21px;
+    color:white;
+
+    border:5px solid white;
+    background-color:rgba(255, 223, 223, 0.281);
+
+}
+
+.textocubo{
+    width:100%;
+    height: fit-content;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 0%;
+    padding-right: 0%;
+
+    text-align: center;
+    font-size: 15px;
+    color:white;
+
+    border:5px solid white;
+    background-color:rgba(255, 223, 223, 0.281);
+ 
+}
+
+@media screen and (max-width: 793px) {
+    .container{
+        display:block;
+        width:calc(90% + 20px);
+        margin: 10px 4% 0 4%;
+    }
+    .textocubo{
+        align-self: center;
+        display: block;
+        width:calc(92% + 20px);
+        margin: 10px 4% 0 0%;
+    }
+  }
+
+
+.clogo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:15vw;
+}
+
+/*-------------FOOTER-------------*/
+
+footer{
+    margin-top: 10px;
+    text-align: right;
+    width:calc(90% + 10px);
+    background-color:rgba(255, 223, 223, 0.137) ;
+    color: #ffeeff;
+    font-size: 0.9em;
+    margin: 10px 4% 0 4%;
+}
+
+@media screen and (max-width: 793px) {
+    footer {
+      margin-top:45vh;
+    }
+  }
+
+/*-------------HTML-------------*/
+
+html {
+    background-image:url('backgrounds/aniback14.gif');
+    background-repeat: repeat;
+
+}

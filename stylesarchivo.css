@@ -1,0 +1,156 @@
+/*----------------TITULO----------------*/
+.title{
+    margin-left:4%;
+    margin-right:4%;
+    background-color: rgba(255, 223, 223, 0.281);
+    color:rgb(250, 194, 255);
+    width:90%;
+    height: 30%;
+    font-size:3vw;
+    display:inline-flex;
+    border:5px solid white;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.llogo{
+    margin-left: 0%;
+    margin-right: auto;
+    width:15vw;
+    height:15vw;
+}
+
+.rlogo{
+    margin-left: auto;
+    margin-right: 0%;
+    width:15vw;
+    height:15vw;
+}
+
+a.teta{
+    color:rgb(255, 212, 212);
+}
+/*----------------TEXTO FORMATO----------------*/
+em{
+    font-size: 1.40em;
+    font-weight: bold;
+    font-style:normal ;
+}
+h3{
+    font-size:1.20em;
+    font-weight: bold;
+    font-style:normal ;
+}
+
+/*----------------ARCHIVO----------------*/
+.subtitle{
+    text-align: center;
+    margin-left:4%;
+    margin-right:4%;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url('backgrounds/chess.gif');
+    background-attachment: fixed;
+    color:bisque;
+    text-shadow:2px 2px brown;
+    width:calc(90% - 5px);
+    font-size: 1.5em;
+    border:5px solid rgb(255, 255, 255);
+    padding-right: 0px;
+    padding-left: 5px;
+
+}
+
+article{
+    margin: 10px 4% 0 4%;
+    background-color: rgba(255, 255, 255, 0.911);
+    color:black;
+    width:calc(90% - 10px);
+    border:5px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: justify;
+}
+/*----------------MENU----------------*/
+
+nav{
+    align-self: center;
+    margin-top: 10px;
+    margin-left:calc(4%);
+    margin-right:calc(4%);
+    width:90%;
+    height:12vh;
+}
+
+nav a{
+    float:left;
+    display:block;
+    width:calc(25% - 10px);
+    height:(12vh);
+    line-height: 12vh;
+    background-color: rgba(255, 255, 255, 0.479);
+    color:rgb(255, 255, 255);
+    
+    background-color: rgba(255, 224, 224, 0.281); ;
+    text-align: center;
+    font-size: 1.5em;
+    border:5px solid white;
+}
+
+#musica {
+    
+    background-image: url('backgrounds/music.gif');
+    text-shadow:2px 2px green;
+    background-attachment: fixed;
+}
+#eventos{
+    background-image:url('backgrounds/melocoton.gif') ;
+    text-shadow:2px 2px orange;
+    background-attachment: fixed;
+}
+#juegos{
+    background-image: url('backgrounds/pc.gif');
+    text-shadow:2px 2px purple;
+    background-attachment: fixed;
+}
+#foto{
+    background-image: url('backgrounds/pink.gif');
+    text-shadow:2px 2px black;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 793px) {
+    nav a {
+      float: none;
+      margin-left:0;
+      margin-right:0;
+      width: 100%;
+    }
+  }
+
+/*----------------FOOTER----------------*/
+
+footer{
+    margin-top: 10px;
+    text-align: right;
+    width:calc(90% + 10px);
+    background-color:rgba(255, 223, 223, 0.137) ;
+    color: #ffeeff;
+    font-size: 0.9em;
+    margin: 10px 4% 0 4%;
+}
+
+@media screen and (max-width: 793px) {
+    footer {
+      margin-top:45vh;
+    }
+  }
+
+/*----------------HTML----------------*/  
+
+html {
+    background-image:url('backgrounds/aniback14.gif');
+    background-repeat: repeat;
+    font-size: large;
+
+}

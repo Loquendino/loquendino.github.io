@@ -1,0 +1,246 @@
+/*----------------TITULO----------------*/
+.title{
+    margin-left:4%;
+    margin-right:4%;
+    background-color: rgba(255, 223, 223, 0.281);
+    color:rgb(255, 167, 167);
+    width:90%;
+    height: 30%;
+    font-size:3vw;
+    display:inline-flex;
+    border:5px solid white;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.llogo{
+    margin-left: 0%;
+    margin-right: auto;
+    width:15vw;
+    height:15vw;
+}
+
+.rlogo{
+    margin-left: auto;
+    margin-right: 0%;
+    width:15vw;
+    height:15vw;
+}
+
+a.teta{
+    color:rgb(255, 212, 212);
+}
+/*----------------MUSICA----------------*/
+.subtitle{
+    text-align: center;
+    margin-left:4%;
+    margin-right:4%;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url('backgrounds/pink.gif');
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    width:calc(90% - 5px);
+    font-size: 1.5em;
+    border:5px solid rgb(255, 255, 255);
+    padding-right: 0px;
+    padding-left: 5px;
+
+}
+/*----------------CANCIONES----------------*/
+
+article{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgb(89, 141, 156);
+    color:black;
+    border:5px solid white;
+    width:90%;
+    margin:15px 4% auto 4%;
+    padding: 0px 0px 0px 0px;
+
+}
+article .info{
+    text-align: center;
+    padding-top: 1px;
+    height:40%;
+    background-color: rgb(255, 0, 0);
+    border-bottom:5px solid white;
+    display:block;
+    width:100%;
+
+}
+article .cover{
+    height:100%;
+    background-color: rgb(9, 255, 0);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    padding: 10px auto 10px auto;
+    width:calc(100% - 5px);
+    border-left: 5px solid white;
+    background-image: url('backgrounds/music.gif');
+    background-attachment: fixed;
+
+}
+article .cover img{
+    margin:5% 5% 5% 5%;
+    width:80%;
+    height:auto;
+}
+.mobilecover{
+    display:none;
+    width:90%;
+    margin:0 4% 0 4%;
+    height:auto;
+    border:5px solid white;
+    background-image: url('backgrounds/music.gif');
+
+}
+article .mobilecover img{
+    margin:5% 5% 5% 5%;
+    width:90%;
+    height:auto;
+
+}
+
+article .desc{
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-right: 5px;
+    height:calc(60% - 7px);
+    background-color: rgb(0, 38, 255);
+    width:calc(100% - 10px);
+
+
+}
+
+@media screen and (max-width: 793px) {
+    article{
+        display:block;
+        width:90%;
+        margin: 10px 4% 10px 4%;
+        background-color: rgb(0, 38, 255);
+        padding-bottom: 40px;
+    }
+
+    article .cover{
+        display: none;
+    }
+
+    .mobilecover{
+        display: block;
+
+    }
+} 
+/*----------------CONCRETO----------------*/
+/*SELENE MUSEUM*/
+#seleneup{ 
+    color: #95d3b1;
+    background-color: aliceblue;
+
+}
+#selenedown{
+    color:aliceblue;
+    background-color: #5c8676;
+
+}
+#selenelink{
+    color:#8bc5a5;
+    text-decoration: underline #8bc5a5;
+}
+
+/*----------------TEXTO FORMATO----------------*/
+em{
+    font-size: 1.40em;
+    font-weight: bold;
+    font-style:normal ;
+}
+h3{
+    font-size:1.20em;
+    font-weight: bold;
+    font-style:normal ;
+}
+/*----------------MENU----------------*/
+
+nav{
+    align-self: center;
+    margin-top: 10px;
+    margin-left:calc(4%);
+    margin-right:calc(4% + 5px);
+    width:90%;
+    height:12vh;
+}
+
+nav a{
+    float:left;
+    display:block;
+    width:calc(25% - 10px);
+    height:12vh;
+    line-height: 12vh;
+    background-color: rgba(255, 255, 255, 0.479);
+    color:rgb(255, 255, 255);
+    
+    background-color: rgba(255, 224, 224, 0.281); ;
+    text-align: center;
+    font-size: 1.5em;
+    border:5px solid white;
+}
+
+#musica {
+    
+    background-image: url('backgrounds/music.gif');
+    text-shadow:2px 2px green;
+    background-attachment: fixed;
+}
+#eventos{
+    background-image:url('backgrounds/melocoton.gif') ;
+    text-shadow:2px 2px orange;
+    background-attachment: fixed;
+}
+#juegos{
+    background-image: url('backgrounds/pc.gif');
+    text-shadow:2px 2px purple;
+    background-attachment: fixed;
+}
+#foto{
+    background-image: url('backgrounds/pink.gif');
+    text-shadow:2px 2px black;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 793px) {
+    nav a {
+      float: none;
+      margin-left:0;
+      margin-right:0;
+      width: 100%;
+    }
+  }
+
+/*----------------FOOTER----------------*/
+
+footer{
+    margin-top: 10px;
+    text-align: right;
+    width:calc(90% + 10px);
+    background-color:rgba(255, 223, 223, 0.137) ;
+    color: #ffeeff;
+    font-size: 0.9em;
+    margin: 10px 4% 0 4%;
+}
+
+@media screen and (max-width: 793px) {
+    footer {
+      margin-top:45vh;
+    }
+  }
+
+/*----------------HTML----------------*/  
+
+html {
+    background-image:url('backgrounds/aniback14.gif');
+    background-repeat: repeat;
+
+}
