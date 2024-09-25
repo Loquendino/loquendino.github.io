@@ -46,8 +46,8 @@ nav a{
     float:left;
     display:block;
     width:calc(25% - 10px);
-    height:12vh;
-    line-height: 12vh;
+    height:4em;
+    line-height: 4em;
     background-color: rgba(255, 255, 255, 0.479);
     color:rgb(255, 255, 255);
     
@@ -84,6 +84,7 @@ nav a{
       margin-left:0;
       margin-right:0;
       width: 100%;
+      font-size:3em;
     }
   }
 
@@ -99,7 +100,7 @@ nav a{
 }
 
 .content{
-    width:94%;
+    width:90%;
     margin-top:0px;
     margin-left: 0px;
     margin-right:auto;
@@ -135,13 +136,12 @@ nav a{
 @media screen and (max-width: 1080px) {
     .container{
         display:block;
-        width:calc(90% + 20px);
+        width:90%;
         margin: 10px 4% 0 4%;
     }
     .textocubo{
-        align-self: center;
         display: block;
-        width:calc(92% + 20px);
+        width:100%;
         margin: 10px 4% 0 0%;
     }
   }

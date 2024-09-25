@@ -118,13 +118,13 @@ nav a{
     text-shadow:2px 2px black;
     background-attachment: fixed;
 }
-
 @media screen and (max-width: 1080px) {
     nav a {
       float: none;
       margin-left:0;
       margin-right:0;
       width: 100%;
+      font-size:3em;
     }
   }
 
