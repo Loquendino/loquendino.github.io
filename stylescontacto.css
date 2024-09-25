@@ -117,7 +117,7 @@ nav a{
     background-attachment: fixed;
 }
 
-@media screen and (max-width: 793px) {
+@media screen and (max-width: 1080px) {
     nav a {
       float: none;
       margin-left:0;
@@ -138,7 +138,7 @@ footer{
     margin: 10px 4% 0 4%;
 }
 
-@media screen and (max-width: 793px) {
+@media screen and (max-width: 1080px) {
     footer {
       margin-top:45vh;
     }
