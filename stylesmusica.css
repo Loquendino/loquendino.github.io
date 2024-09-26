@@ -55,7 +55,7 @@ article{
     color:black;
     border:5px solid white;
     width:90%;
-    margin:15px 4% auto 4%;
+    margin:15px 5% auto 5%;
     padding: 0px 0px 0px 0px;
 
 }
@@ -87,6 +87,12 @@ article .cover img{
     margin:5% 5% 5% 5%;
     width:80%;
     height:auto;
+}
+article .cover a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .mobilecover{
     display:none;
@@ -168,8 +174,8 @@ nav{
     margin-top: 10px;
     margin-left:calc(5%);
     margin-right:calc(5%);
-    width:90%;
-    height:12vh;
+    width:calc(90% + 10px);
+    height:10em;
 }
 
 nav a{

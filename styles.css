@@ -34,12 +34,13 @@ a.teta{
 
 /*-------------MENU-------------*/
 nav{
+    
     align-self: center;
     margin-top: 10px;
     margin-left:calc(5%);
     margin-right:calc(5%);
-    width:90%;
-    height:12vh;
+    width:calc(90% + 10px);
+    height:10em;
 }
 
 nav a{
@@ -162,18 +163,19 @@ nav a{
 /*-------------FOOTER-------------*/
 
 footer{
-    margin-top: 10px;
+    height:fit-content;
+    margin: 20px 5% 0 5%;
     text-align: right;
-    width:calc(90% + 10px);
-    background-color:rgba(255, 223, 223, 0.137) ;
+    width:90%;
+    background-color:rgba(255, 223, 223, 0.356) ;
     color: #ffeeff;
     font-size: 0.9em;
-    margin: 10px 4% 0 4%;
+
 }
 
 @media screen and (max-width: 1080px) {
     footer {
-      margin-top:45em;
+      margin-top:48em;
     }
   }
 
