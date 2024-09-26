@@ -125,6 +125,9 @@ nav a{
       width: 100%;
       font-size:3em;
     }
+    nav{
+        width:90%;
+    }
   }
 
 /*----------------FOOTER----------------*/

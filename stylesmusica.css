@@ -92,7 +92,6 @@ article .cover a{
     display:flex;
     justify-content: center;
     align-items: center;
-
 }
 .mobilecover{
     display:none;
@@ -222,6 +221,9 @@ nav a{
       margin-right:0;
       width: 100%;
       font-size:3em;
+    }
+    nav{
+        width:90%;
     }
   }
 

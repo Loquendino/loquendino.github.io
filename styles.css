@@ -87,6 +87,9 @@ nav a{
       width: 100%;
       font-size:3em;
     }
+    nav{
+        width:90%;
+    }
   }
 
 /*-------------CONTENIDO-------------*/
@@ -137,7 +140,7 @@ nav a{
 @media screen and (max-width: 1080px) {
     .container{
         display:block;
-        width:90%;
+        width:calc(90% + 10px);
         margin: 10px 5% 0 5%;
     }
     .content{
@@ -147,7 +150,7 @@ nav a{
 
     .textocubo{
         display: block;
-        width:calc(100%-10px);
+        width:calc(100% - 10px);
         margin: 10px auto 0 0%;
     }
   }
