@@ -31,7 +31,8 @@
 a.teta{
     color:rgb(255, 212, 212);
 }
-/*----------------MUSICA----------------*/
+
+/*----------------SUBTITULO----------------*/
 .subtitle{
     text-align: center;
     margin-left:5%;
@@ -46,109 +47,57 @@ a.teta{
     padding-right: 0px;
 
 }
-/*----------------CANCIONES----------------*/
+
+/*----------------FOTOGRAFÍA----------------*/
+
+section{
+    width:90%;
+    border:5px solid white;
+    margin:15px 5% 0px 5%;
+    background-color:green ;
+}
 
 article{
-    display:grid;
-    grid-template-columns: 2fr 1fr;
-    background-color: rgb(89, 141, 156);
-    color:black;
-    border:5px solid white;
-    width:90%;
-    margin:15px 5% auto 5%;
-    padding: 0px 0px 0px 0px;
-
-}
-article .info{
-    text-align: center;
-    padding-top: 1px;
-    height:40%;
-    background-color: rgb(255, 0, 0);
-    border-bottom:5px solid white;
-    display:block;
     width:100%;
+    border-bottom:5px solid white;
+    margin:0px 0px 0px 0px;
+    background-color: blue;
+}
 
-}
-article .cover{
-    height:100%;
-    background-color: rgb(9, 255, 0);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    float:left;
-    padding: 10px auto 10px auto;
-    width:calc(100% - 5px);
-    border-left: 5px solid white;
-    background-image: url('backgrounds/music.gif');
-    background-attachment: fixed;
-
-}
-article .cover img{
-    margin:5% 5% 5% 5%;
-    width:80%;
-    height:auto;
-}
-.mobilecover{
-    display:none;
-    width:90%;
-    margin:0 4% 0 4%;
-    height:auto;
-    border:5px solid white;
-    background-image: url('backgrounds/music.gif');
-
-}
-article .mobilecover img{
-    margin:5% 5% 5% 5%;
-    width:90%;
-    height:auto;
+.nombre{
+    width:100%;
+    align-self: center;
+    border-bottom:5px solid white;
+    margin:0px 0px 0px 0px;
+    height:10%;
+    background-image:url("backgrounds/pink.gif")
 
 }
 
-article .desc{
-    padding-left: 5px;
-    padding-top: 1px;
-    padding-right: 5px;
-    height:calc(60% - 7px);
-    background-color: rgb(0, 38, 255);
-    width:calc(100% - 10px);
-
-
+.foto{
+    display: flex;
+    width:100%;
+    margin:0px 0px 0px 0px;
+    height:90%;
+    background-color: rgb(255, 255, 255);
 }
 
-@media screen and (max-width: 1080px) {
-    article{
-        display:block;
-        width:90%;
-        margin: 10px 4% 10px 4%;
-        background-color: rgb(0, 38, 255);
-        padding-bottom: 40px;
-    }
+.foto img{
+    width:60%;
+    align-self: center;
+    justify-self: start;
+}
 
-    article .cover{
-        display: none;
-    }
+.foto p{
+    width:40%;
+    align-self: center;
+    justify-self: end;
+}
 
-    .mobilecover{
-        display: block;
 
-    }
-} 
+
 /*----------------CONCRETO----------------*/
-/*SELENE MUSEUM*/
-#seleneup{ 
-    color: #95d3b1;
-    background-color: aliceblue;
 
-}
-#selenedown{
-    color:aliceblue;
-    background-color: #5c8676;
-
-}
-#selenelink{
-    color:#8bc5a5;
-    text-decoration: underline #8bc5a5;
-}
 
 /*----------------TEXTO FORMATO----------------*/
 em{
@@ -157,6 +106,11 @@ em{
     font-style:normal ;
 }
 h3{
+    width:fit-content;
+    margin:0px 0px 0px 0px;
+    border-right:5px solid white;
+    background-color: black;
+    color:white;
     font-size:1.20em;
     font-weight: bold;
     font-style:normal ;
@@ -164,18 +118,16 @@ h3{
 /*----------------MENU----------------*/
 
 nav{
-    align-self: center;
-    margin-top: 10px;
-    margin-left:calc(5%);
-    margin-right:calc(5%);
+    margin:15px 5% auto 5%;
     width:calc(90% + 10px);
     height:10em;
+    border: 5px rgba(255, 255, 255, 0) 
 }
 
 nav a{
     float:left;
     display:block;
-    width:calc(25% - 10px);
+    width:calc(25% - 11px);
     height:12vh;
     line-height: 12vh;
     background-color: rgba(255, 255, 255, 0.479);
@@ -183,9 +135,10 @@ nav a{
     
     background-color: rgba(255, 224, 224, 0.281); ;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     border:5px solid white;
 }
+
 
 #musica {
     

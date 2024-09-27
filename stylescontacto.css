@@ -89,26 +89,24 @@ article{
 /*----------------MENU----------------*/
 
 nav{
-    align-self: center;
-    margin-top: 10px;
-    margin-left:calc(5%);
-    margin-right:calc(5%);
+    margin:15px 5% auto 5%;
     width:calc(90% + 10px);
     height:10em;
+    border: 5px rgba(255, 255, 255, 0) 
 }
 
 nav a{
     float:left;
     display:block;
-    width:calc(25% - 10px);
-    height:(12vh);
+    width:calc(25% - 11px);
+    height:12vh;
     line-height: 12vh;
     background-color: rgba(255, 255, 255, 0.479);
     color:rgb(255, 255, 255);
     
     background-color: rgba(255, 224, 224, 0.281); ;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     border:5px solid white;
 }
 
