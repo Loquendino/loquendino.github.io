@@ -37,7 +37,6 @@ a.teta{
     text-align: center;
     margin-left:5%;
     margin-right:5%;
-    background-color: rgba(255, 255, 255, 0.5);
     background-image: url('backgrounds/pink.gif');
     color:rgb(255, 255, 255);
     text-shadow: 2px 2px rgb(0, 0, 0);
@@ -46,8 +45,56 @@ a.teta{
     border:5px solid rgb(255, 255, 255);
     padding-right: 0px;
 
+
+
 }
 
+#black{
+    background-image: none;
+    background-color: rgba(255, 223, 223, 0.281);
+    height: fit-content;
+
+}
+/*----------------INDICE----------------*/
+.indice{
+    display:inline-flex;
+    padding: 0px 0px 0px 0px;
+    margin:15px 5% auto 5%;
+    background-color: rgba(255, 223, 223, 0.281);
+    background-image: url('backgrounds/pink.gif');
+    border:5px solid white;
+    width:calc(90% );
+    color:white;
+
+
+}
+
+.indice h2{
+    padding-left: 15px;
+    background-color:black;
+    margin:0px auto 0px 0px;
+    
+
+}
+
+.pagina{
+    background-color: white;
+    align-items: center;
+    color:black;
+    border:5px solid black;
+    border-style:outset;
+
+}
+.indice a{
+    color:#ffbcee
+}
+.indice ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+
+ }
 /*----------------FOTOGRAFÍA----------------*/
 
 section{
@@ -56,11 +103,16 @@ section{
     margin:15px 5% 0px 5%;
 
 }
-
+.comentario p{
+    color:grey; 
+    background-color: aliceblue; 
+    text-align: end; 
+    margin:0px auto 0px auto;
+}
 article{
     width:100%;
     margin:0px 0px 0px 0px;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -80,22 +132,25 @@ article{
     display: flex;
     width:100%;
     margin:0px 0px 0px 0px;
-    height:90%;
     background-color: rgb(255, 255, 255);
     border-bottom: 5px solid rgb(255, 255, 255);;
 }
 
 .foto img{
-    width:60%;
+    width:42%;
     align-self: center;
     justify-self: start;
+}
+.foto img:hover{
+    width: 70%;
+    height:70%;
 }
 
 .foto .descri{
     display: block;
     width:20%;
     padding: auto 5px auto 5px;
-    margin:auto auto auto 10%;
+    margin:auto auto auto auto;
     align-self: center;
     justify-self: end;
     border: 5px solid rgb(255, 255, 255);
@@ -125,6 +180,7 @@ article{
     }
     .foto{
         display:block;
+        width:100%
     }
     .foto img{
         width:100%;
