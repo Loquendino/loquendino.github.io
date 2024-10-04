@@ -154,6 +154,27 @@ article .desc{
     text-decoration: underline #fdff73;
 }
 
+
+/*MAIDEN & SPELL*/
+
+#maiden{
+    background-color:  #625d50;
+}
+
+#maidenup{ 
+    color:  #625d50;
+    background-color:#efe1a3;
+
+}
+#maidendown{
+    color: #efe1a3;
+    background-color:  #625d50;
+
+}
+#maidenlink{
+    color:#b3bbff;
+    text-decoration: underline #b3bbff;
+}
 /*----------------TEXTO FORMATO----------------*/
 em{
     font-size: 1.40em;
