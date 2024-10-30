@@ -58,22 +58,26 @@ nav a{
 #musica { 
     background-image: url('backgrounds/music.gif');
     text-shadow:2px 2px green;
+    background-position: 50% 50%;
     background-attachment: fixed;
 }
 #eventos{
     background-image:url('backgrounds/melocoton.gif') ;
     text-shadow:2px 2px orange;
     background-attachment: fixed;
+    background-position: 50% 50%;
 }
 #juegos{
     background-image: url('backgrounds/pc.gif');
     text-shadow:2px 2px purple;
     background-attachment: fixed;
+    background-position: 50% 50%;
 }
 #foto{
     background-image: url('backgrounds/pink.gif');
     text-shadow:2px 2px black;
     background-attachment: fixed;
+    background-position: 50% 50%;
 }
 .noticias{
     display: flex;
@@ -97,10 +101,13 @@ nav a{
       margin-left:0;
       margin-right:0;
       width: 100%;
-      font-size:3em;
+      font-size:2em;
+      height:100px;
+      line-height: 100px;
     }
     nav{
         width:90%;
+        height:500px;
     
     }
     .noticias{
@@ -205,7 +212,7 @@ footer{
 
 @media screen and (max-width: 1080px) {
     footer {
-      margin-top:48em;
+      margin-top:15px;
     }
   }
 
