@@ -1,0 +1,345 @@
+/*----------------TITULO----------------*/
+.title{
+    display: grid;
+    place-items: center;
+    margin-left:5%;
+    margin-right:5%;
+    background-color: rgba(41, 74, 165, 0.80);
+    color:chocolate;
+    width:90%;
+    height: 30%;
+    font-size:3vw;
+    border:5px solid rgb(255, 228, 152);
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.new{
+
+    width:50vh;
+}
+a.teta{
+    color:rgb(255, 212, 212);
+}
+/*----------------TEXTO FORMATO----------------*/
+em{
+    font-size: 1.40em;
+    font-weight: bold;
+    font-style:normal ;
+}
+h3{
+    font-size:1.20em;
+    font-weight: bold;
+    font-style:normal ;
+}
+
+/*----------------EVENTOS----------------*/
+
+.intro h2{
+    margin-left: 10px;
+    color:  rgb(255, 228, 152);
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+}
+.intro p{
+    margin-left: 20px;
+    color:  rgb(255, 228, 152);
+}
+.subtitle{
+    text-align: center;
+    margin-left:5%;
+    margin-right:5%;
+    background-color: rgba(24, 43, 97, 0.82);
+    background-image: url('backgrounds/aniback14.gif');
+    background-attachment: fixed;
+    color:rgb(255, 255, 255);
+    text-shadow:1px 1px rgb(162, 0, 255);
+    width:90%;
+    font-size: 1.5em;
+    border:5px solid rgb(255, 228, 152);
+    padding-right: 0px;
+}
+
+.cuadrau{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.cuadradoA{
+    border:5px solid rgb(255, 228, 152);
+    background-color:rgb(26, 47, 104);
+
+
+}
+.cuadradoA img{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+} 
+.cuadradoB{
+    border:5px solid rgb(255, 228, 152);
+    background-color:rgb(26, 47, 104);
+
+}
+.cuadradoB img{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+} 
+.cuadradoC{
+    border:5px solid rgb(255, 228, 152);
+    background-color:rgb(26, 47, 104);
+
+}
+.cuadradoC img{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+} 
+.cuadradoD{
+    border:5px solid rgb(255, 228, 152);
+    background-color:rgb(26, 47, 104);
+
+}
+.cuadradoD img{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+} 
+
+  
+.cuadradoA:hover{
+    border:5px solid rgb(255, 228, 152);
+    background-color:rgb(26, 47, 104, 0);
+    background-image: url("backgrounds/upleft.JPG");
+
+}
+.cuadradoA:hover img{
+    opacity: 1;
+} 
+.cuadradoB:hover{
+    border:5px solid rgb(255, 228, 152);
+    background-color:rgb(26, 47, 104, 0);
+    background-image: url("backgrounds/upright.JPG");
+
+}
+.cuadradoB:hover img{
+    opacity: 1;
+} 
+.cuadradoC:hover{
+    border:5px solid rgb(255, 228, 152);
+    background-color:rgb(26, 47, 104, 0);
+    background-image: url("backgrounds/downleft.JPG");
+
+}
+.cuadradoC:hover img{
+    opacity: 1;
+} 
+.cuadradoD:hover{
+    border:5px solid rgb(255, 228, 152);
+    background-color:rgb(26, 47, 104, 0);
+    background-image: url("backgrounds/downright.JPG");
+
+}
+.cuadradoD:hover img{
+    opacity: 1;
+} 
+.cuadrado:active{
+    border:5px solid rgb(26, 47, 104, 0.8) ;
+    background-color:rgb(255, 228, 152);
+}
+
+.container{
+    display: grid;
+    width: calc(90% + 10px);
+    margin-top:10px;
+    margin-left: 5%;
+    margin-right:5%;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.container2{
+    display: grid;
+    width: calc(90% + 10px);
+    margin-top:10px;
+    margin-left: 5%;
+    margin-right:5%;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+
+.content{
+    width:calc(100% - 10px - 2em);
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right:auto;
+    padding-right: 1em;
+    padding-left: 1em;
+
+    font-size: 21px;
+    color:rgb(255, 228, 152);
+
+    border:5px solid rgb(255, 228, 152);
+    background-color:rgba(26, 47, 104, 0.8);
+
+}
+
+#smash{
+    background-color: black;
+    color: aliceblue;
+
+}
+
+#mania{
+    background-color: rgb(40, 0, 78);
+    color: rgb(255, 228, 152);
+    
+}
+
+
+#guilty{
+    background-color: rgb(78, 0, 0);
+    color: aliceblue;
+    
+}
+.intro{
+    width: 90%;
+    margin: 10px 5% 10px 5%;
+    border:5px solid rgb(255, 228, 152);
+    background-color:rgba(26, 47, 104, 0.8);
+}
+
+@media screen and (max-width: 1080px) {
+    .container{
+        display:block;
+        width:calc(90% + 10px);
+        margin: 10px 5% 2em 5%;
+    }
+    .container2{
+        display:block;
+        width:calc(90% + 10px);
+        margin: 10px 5% 2em 5%;
+    }
+    .cuadradoA{
+        min-height: 100%;
+        min-width: 48%;
+    }
+    .cuadradoB{
+        min-height: 100%;
+        min-width: 48%;
+    }
+    .cuadradoC{
+        min-height: 100%;
+        min-width: 48%;
+    }
+    .cuadradoD{
+        min-height: 100%;
+        min-width: 48%;
+    }
+    .content{
+        align-self: center;
+        width:calc(100%-10px);
+    }
+
+    .textocubo{
+        display: block;
+        width:calc(100% - 10px);
+        margin: 10px auto 0 0%;
+        border:5px solid rgb(255, 228, 152);
+    }
+  }
+
+/*----------------MENU----------------*/
+
+nav{
+    margin:15px 5% auto 5%;
+    width:calc(90% + 10px);
+    height:10em;
+    border: 5px rgba(255, 255, 255, 0) 
+}
+
+nav a{
+    float:left;
+    display:block;
+    width:calc(25% - 11px);
+    height:4em;
+    line-height: 4em;
+    background-color: rgba(41, 74, 165, 0.80);
+    color:rgb(255, 255, 255);
+    
+    background-color: rgba(41, 74, 165, 0.80);
+    text-align: center;
+    font-size: 2em;
+    border:5px solid rgb(255, 228, 152);
+}
+
+#musica { 
+    background-image: url('backgrounds/musicaBG.png');
+    text-shadow:2px 2px green;
+    background-position: 0% 0%;
+    background-attachment: fixed;
+}
+#eventos{
+    background-image:url('backgrounds/eventosBG.png') ;
+    text-shadow:2px 2px orange;
+    background-attachment: fixed;
+    background-position: 0% 0%;
+}
+#juegos{
+    background-image: url('backgrounds/videojuegosBG.png');
+    text-shadow:2px 2px purple;
+    background-attachment: fixed;
+    background-position: 0% 0%;
+}
+#foto{
+    background-image: url('backgrounds/fotografiaBG.png');
+    text-shadow:2px 2px black;
+    background-attachment: fixed;
+    background-position: 0% 0%;
+}
+
+@media screen and (max-width: 1080px) {
+    nav a {
+      float: none;
+      margin-left:0;
+      margin-right:0;
+      width: 100%;
+      font-size:3em;
+    }
+    nav{
+        width:90%;
+    }
+  }
+
+/*----------------FOOTER----------------*/
+
+footer{
+    margin-top: 10px;
+    text-align: right;
+    width:calc(90% + 10px);
+    background-color:rgba(255, 223, 223, 0.137) ;
+    color: #ffeeff;
+    font-size: 0.9em;
+    margin: 10px 4% 0 4%;
+}
+
+@media screen and (max-width: 1080px) {
+    footer {
+      margin-top:45vh;
+    }
+  }
+
+/*----------------HTML----------------*/  
+
+html {
+    background-color: black;
+    background-image:url('backgrounds/aniback20.gif');
+    background-repeat: repeat;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+
+}
