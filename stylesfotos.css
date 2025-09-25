@@ -1,3 +1,12 @@
+/*----------------COLORES----------------*/
+/*marron claro: rgb(247, 221, 164)
+/*marron oscuro: rgb(184, 144, 104)
+/*azul claro: rgb(86, 117, 130)
+/*azul oscuro: rgb(70, 77, 92)
+
+
+
+
 /*----------------TITULO----------------*/
 .title{
     display: grid;
@@ -29,9 +38,7 @@ a.teta{
     text-align: center;
     margin-left:5%;
     margin-right:5%;
-    background-color: rgba(24, 43, 97, 0.82);
-    background-image: url('backgrounds/fotogif.gif');
-    background-attachment: fixed;
+    background-color: pink;
     color:rgb(255, 255, 255);
     text-shadow:1px 1px rgb(0, 0, 0);
     width:90%;
@@ -53,13 +60,15 @@ a.teta{
 .indice{
     display:inline-flex;
     padding: 0px 0px 0px 0px;
-    margin:15px 5% auto 5%;
-    background-color: rgba(24, 43, 97, 0.82);
-    border:5px solid rgb(255, 228, 152);
+    margin:1em 5% 1em 5%;
+    background-color: rgb(247, 221, 164);
+    border:5px solid rgb(70, 77, 92);
     width:calc(90% );
-    color:rgb(255, 228, 152);
-
-
+    color:rgb(184, 144, 104);
+    white-space: nowrap;
+    overflow: auto;
+    scrollbar-color:pink;
+    
 }
 
 .indice h2{
@@ -74,13 +83,14 @@ a.teta{
 }
 
 .pagina{
-    width:25%;
-    background-color: rgb(255, 228, 152);
+
+    background-color: rgb(184, 144, 104);
     align-items: center;
     color:#ffbcee;
     border:5px solid black;
-    border-style:outset;
-    padding-right: 3px;
+    border-style:inset;
+    padding-right: 1em;
+    padding-left:1em;
 
 }
 .pagina p{
@@ -89,24 +99,25 @@ a.teta{
 
 .paginamarcada{
 
-    width:25%;
     background-color: rgba(255, 228, 152, 0.5);
     align-items: center;
-    color:#ffbcee;
+    color:darkblue;
+    font-weight: bold;
     border:5px solid black;
     border-style:outset;
-    padding-right: 3px;
+    padding-right: 1em;
+    padding-left:1em;
 
 }
 
 .paginamarcada p{
     opacity:1;
-    color:white; 
+    color:red; 
     text-align: center;
    }   
    
 .indice a{
-    color:rgb(24, 43, 97);
+    color:rgb(70, 77, 92);
 }
 .indice ul{
     list-style: none;
@@ -152,8 +163,8 @@ article{
     display: flex;
     width:100%;
     margin:0px 0px 0px 0px;
-    background-color:rgb(13, 24, 53);
-    border-bottom: 5px solid rgb(13, 24, 53);
+    background-color:rgb(184, 144, 104);
+    border-bottom: 5px solid rgb(247, 221, 164);
 }
 
 .foto img{
@@ -173,14 +184,14 @@ article{
     margin:auto auto auto auto;
     align-self: center;
     justify-self: end;
-    border: 5px solid rgb(13, 24, 53);
-    color:rgb(255, 228, 152);
+    border: 5px solid rgb(247, 221, 164, 0);
+    color:rgb(70, 77, 92);
 
 }
 
 .foto .descri:hover{
-    background-image:url("backgrounds/aniback19.gif");
-    border: 5px solid rgb(24, 45, 100);
+    background-image:url("backgrounds/bg.gif");
+    border: 5px solid rgb(247, 221, 164);
     border-style: outset;
     padding: auto 10px auto 10px;
 
@@ -286,28 +297,27 @@ nav a{
     width:calc(25% - 11px);
     height:4em;
     line-height: 4em;
-    background-color: rgba(41, 74, 165, 0.80);
+    background-color:  rgba(70, 77, 92, 0.8);
     color:rgb(255, 255, 255);
-    
-    background-color: rgba(41, 74, 165, 0.80);
+   
     text-align: center;
     font-size: 2em;
     border:5px solid rgb(255, 228, 152);
 }
 
-#musica { 
-    background-image: url('backgrounds/musicaBG.png');
+#eventos { 
+    background-image: url('backgrounds/eventosBG.png');
     text-shadow:2px 2px green;
     background-position: 0% 0%;
     background-attachment: fixed;
 }
-#eventos{
-    background-image:url('backgrounds/eventosBG.png') ;
+#nosotros{
+    background-image:url('backgrounds/nosotrosBG.png') ;
     text-shadow:2px 2px orange;
     background-attachment: fixed;
     background-position: 0% 0%;
 }
-#juegos{
+#media{
     background-image: url('backgrounds/videojuegosBG.png');
     text-shadow:2px 2px purple;
     background-attachment: fixed;
@@ -331,6 +341,7 @@ nav a{
     nav{
         width:90%;
     }
+    
   }
 
 /*----------------FOOTER----------------*/
@@ -338,16 +349,17 @@ nav a{
 footer{
     margin-top: 10px;
     text-align: right;
-    width:calc(90% + 10px);
-    background-color:rgba(255, 223, 223, 0.137) ;
+    width:90%;
+    background-color:rgb(184, 144, 104) ;
     color: #ffeeff;
     font-size: 0.9em;
-    margin: 10px 4% 0 4%;
+    margin-left:5%;
+    padding-right:10px;
 }
 
 @media screen and (max-width: 1080px) {
     footer {
-      margin-top:45vh;
+      margin-top:50em;
     }
   }
 

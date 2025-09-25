@@ -34,16 +34,84 @@ h3{
     font-style:normal ;
 }
 
+/* wave vertical*/
+
+.wavia-text{
+    font-weight: bold;
+    margin-top: 3%;
+    font-size: larger;
+    text-align: center;
+    font-size: 3em;
+    
+    
+}
+
+.wavia-text span {
+    display: inline-block;
+    animation: wavia 4s ease-in-out infinite;
+}
+
+.wavia-text span:nth-child(1) {
+    animation-delay: 0s;
+}
+.wavia-text span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.wavia-text span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+.wavia-text span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+.wavia-text span:nth-child(5) {
+    animation-delay: 0.8s;
+}
+.wavia-text span:nth-child(6) {
+    animation-delay: 1.0s;
+}
+.wavia-text span:nth-child(7) {
+    animation-delay: 1.2s;
+}
+.wavia-text span:nth-child(8) {
+    animation-delay: 1.4s;
+}
+.wavia-text span:nth-child(9) {
+    animation-delay: 1.6s;
+}
+.wavia-text span:nth-child(10) {
+    animation-delay: 1.8s;
+}
+.wavia-text span:nth-child(11) {
+    animation-delay: 2.0s;
+}
+.wavia-text span:nth-child(12) {
+    animation-delay: 2.2s;
+}
+.wavia-text span:nth-child(13) {
+    animation-delay: 2.4s;
+}
+
+@keyframes wavia {
+    0%, 100% {
+        color:aliceblue;
+        transform: translateY(0);
+        
+    }
+    50% {
+        transform: translateY(-10px);
+        color:rgb(86, 117, 130);
+    }
+}
 /*----------------EVENTOS----------------*/
 .subtitle{
     text-align: center;
     margin-left:5%;
     margin-right:5%;
-    background-color: rgba(24, 43, 97, 0.82);
-    background-image: url('backgrounds/eventogif.gif');
+    border:5px solid rgb(70, 77, 92);
+    background-color:rgb(86, 117, 130);
     background-attachment: fixed;
-    color:rgb(255, 255, 255);
-    text-shadow:1px 1px orange;
+    color:white;
+    text-shadow: 2px 2px 0 black;
     width:90%;
     font-size: 1.5em;
     border:5px solid rgb(255, 228, 152);
@@ -52,8 +120,8 @@ h3{
 
 article{
     margin: 10px 5% 0 5%;
-    background-color: rgba(8, 7, 46, 0.911);
-    color:rgb(255, 228, 152);
+    background-color: rgba(184, 144, 104, 0.911);
+    color:aliceblue;
     width:calc(90% - 10px);
     border:5px solid rgb(255, 228, 152);
     padding-left: 5px;
@@ -75,28 +143,27 @@ nav a{
     width:calc(25% - 11px);
     height:4em;
     line-height: 4em;
-    background-color: rgba(41, 74, 165, 0.80);
+    background-color:  rgba(70, 77, 92, 0.8);
     color:rgb(255, 255, 255);
-    
-    background-color: rgba(41, 74, 165, 0.80);
+   
     text-align: center;
     font-size: 2em;
     border:5px solid rgb(255, 228, 152);
 }
 
-#musica { 
-    background-image: url('backgrounds/musicaBG.png');
+#eventos { 
+    background-image: url('backgrounds/eventosBG.png');
     text-shadow:2px 2px green;
     background-position: 0% 0%;
     background-attachment: fixed;
 }
-#eventos{
-    background-image:url('backgrounds/eventosBG.png') ;
+#nosotros{
+    background-image:url('backgrounds/nosotrosBG.png') ;
     text-shadow:2px 2px orange;
     background-attachment: fixed;
     background-position: 0% 0%;
 }
-#juegos{
+#media{
     background-image: url('backgrounds/videojuegosBG.png');
     text-shadow:2px 2px purple;
     background-attachment: fixed;
@@ -120,6 +187,7 @@ nav a{
     nav{
         width:90%;
     }
+    
   }
 
 /*----------------FOOTER----------------*/
@@ -127,19 +195,19 @@ nav a{
 footer{
     margin-top: 10px;
     text-align: right;
-    width:calc(90% + 10px);
-    background-color:rgba(255, 223, 223, 0.137) ;
+    width:90%;
+    background-color:rgb(184, 144, 104) ;
     color: #ffeeff;
     font-size: 0.9em;
-    margin: 10px 4% 0 4%;
+    margin-left:5%;
+    padding-right:10px;
 }
 
 @media screen and (max-width: 1080px) {
     footer {
-      margin-top:45vh;
+      margin-top:50em;
     }
   }
-
 /*----------------HTML----------------*/  
 
 html {

@@ -92,28 +92,27 @@ nav a{
     width:calc(25% - 11px);
     height:4em;
     line-height: 4em;
-    background-color: rgba(41, 74, 165, 0.80);
+    background-color:  rgba(70, 77, 92, 0.8);
     color:rgb(255, 255, 255);
-    
-    background-color: rgba(41, 74, 165, 0.80);
+   
     text-align: center;
     font-size: 2em;
     border:5px solid rgb(255, 228, 152);
 }
 
-#musica { 
-    background-image: url('backgrounds/musicaBG.png');
+#eventos { 
+    background-image: url('backgrounds/eventosBG.png');
     text-shadow:2px 2px green;
     background-position: 0% 0%;
     background-attachment: fixed;
 }
-#eventos{
-    background-image:url('backgrounds/eventosBG.png') ;
+#nosotros{
+    background-image:url('backgrounds/nosotrosBG.png') ;
     text-shadow:2px 2px orange;
     background-attachment: fixed;
     background-position: 0% 0%;
 }
-#juegos{
+#media{
     background-image: url('backgrounds/videojuegosBG.png');
     text-shadow:2px 2px purple;
     background-attachment: fixed;
@@ -125,6 +124,7 @@ nav a{
     background-attachment: fixed;
     background-position: 0% 0%;
 }
+
 @media screen and (max-width: 1080px) {
     nav a {
       float: none;
@@ -136,6 +136,7 @@ nav a{
     nav{
         width:90%;
     }
+    
   }
 
 /*----------------FOOTER----------------*/
@@ -143,19 +144,19 @@ nav a{
 footer{
     margin-top: 10px;
     text-align: right;
-    width:calc(90% + 10px);
-    background-color:rgba(255, 223, 223, 0.137) ;
+    width:90%;
+    background-color:rgb(184, 144, 104) ;
     color: #ffeeff;
     font-size: 0.9em;
-    margin: 10px 4% 0 4%;
+    margin-left:5%;
+    padding-right:10px;
 }
 
 @media screen and (max-width: 1080px) {
     footer {
-      margin-top:45vh;
+      margin-top:50em;
     }
   }
-
 /*----------------HTML----------------*/  
 
 html {

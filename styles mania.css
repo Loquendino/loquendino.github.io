@@ -150,14 +150,14 @@ a.teta{
 
 }
 .puesto3{
-    margin-top: 3em;
+    margin-top: 1em;
     display: flex;
     margin-right:3%;
     width:96%;
     height:2em;
     border: 5px solid rgb(202, 121, 0);
     background-color:rgb(134, 93, 47) ;
-    height:3em;
+    height:2em;
 
 }
 .pfp{
@@ -266,25 +266,29 @@ nav a{
     border:5px solid rgb(255, 228, 152);
 }
 
-#musica { 
-    background-image: url('backgrounds/musicaBG.png');
-    text-shadow:2px 2px green;
+#eventos { 
+    background-color:rgb(86, 117, 130);
+    background-image: url('backgrounds/eventosBG.png');
+    text-shadow:2px 2px black;
     background-position: 0% 0%;
     background-attachment: fixed;
 }
-#eventos{
-    background-image:url('backgrounds/eventosBG.png') ;
-    text-shadow:2px 2px orange;
+#nosotros{
+    background-color:aliceblue;
+    background-image:url('backgrounds/nosotrosBG.png') ;
+    text-shadow:2px 2px black;
     background-attachment: fixed;
     background-position: 0% 0%;
 }
-#juegos{
-    background-image: url('backgrounds/videojuegosBG.png');
-    text-shadow:2px 2px purple;
+#media{
+    background-color: rgb(70, 77, 92);
+    background-image: url('backgrounds/mediaBG.png');
+    text-shadow:2px 2px black;
     background-attachment: fixed;
     background-position: 0% 0%;
 }
 #foto{
+    background-color:pink;
     background-image: url('backgrounds/fotografiaBG.png');
     text-shadow:2px 2px black;
     background-attachment: fixed;
@@ -364,22 +368,22 @@ nav a{
   }
 
 
-/*-------------FOOTER-------------*/
+/*----------------FOOTER----------------*/
 
 footer{
-    height:fit-content;
-    margin: 20px 5% 0 5%;
+    margin-top: 10px;
     text-align: right;
-    width:calc(90% + 10px);
-    background-color:rgba(33, 58, 128, 0.35) ;
+    width:90%;
+    background-color:rgb(184, 144, 104) ;
     color: #ffeeff;
     font-size: 0.9em;
-
+    margin-left:5%;
+    padding-right:10px;
 }
 
 @media screen and (max-width: 1080px) {
     footer {
-      margin-top:15px;
+      margin-top:50em;
     }
   }
 

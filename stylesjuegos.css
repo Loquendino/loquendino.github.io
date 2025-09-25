@@ -9,7 +9,7 @@
     width:90%;
     height: 30%;
     font-size:3vw;
-    border:5px solid rgb(255, 228, 152);
+    border:5px solid rgb(70, 77, 92);
     padding-right: 0px;
     padding-left: 0px;
     text-align: center;
@@ -39,7 +39,111 @@ a.teta{
 }
 
 /*----------------CANCIONES----------------*/
+.demos{
+    border:5px solid rgb(255, 228, 152);
+    width:90%;
+    margin:15px 5% auto 5%;
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(184, 144, 104);
+    
+}
+.demostitle{
+    background-color:rgb(86, 117, 130);
+    width: 100%;
+    padding:1em 0 1em 0;
+    text-align: center;
+    color:rgb(247, 221, 164);
+    border-bottom:5px solid rgb(247, 221, 164);
+    font-size:1.5em
+}
+#wrap{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+.demosdesc{
+    width:calc(100% - 1em);
+    margin:0;
+    padding-left: 1em;
+    background-color:rgb(184, 144, 104);
+    color: black;
+    border-bottom:4px solid rgb(247, 221, 164);
+}
+.demoscontainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 
+}
+.demossubcontainer{
+    flex-direction: column;
+    background-color: #625d50;
+}
+
+
+
+
+/*marron claro: rgb(247, 221, 164)
+/*marron oscuro: rgb(184, 144, 104)
+/*azul claro: rgb(86, 117, 130)
+/*azul oscuro: rgb(70, 77, 92)*/
+
+.demosjuegos{
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(255, 228, 152);
+    color:rgb(255, 228, 152);
+    text-align: justify;
+    background-color: rgb(86, 117, 130);
+
+}
+.demosjuegos h2{
+    width:100%;
+    text-shadow: 3px 3px 1px black;
+    text-align: center;
+    padding:1em 0 1em 0;
+    margin:0 auto auto auto;
+    background-color:  rgb(70, 77, 92);
+    font-size: 2em;
+    font-weight:900;
+}
+#star{
+    padding-left:0.5em;
+    display: inline-block;
+    animation:sunny 8s infinite ease-in-out;
+    font-size: 1.0em;
+    color:gold;
+
+    
+}
+
+@keyframes sunny {
+    0%, 100% {
+        color: rgb(225,190,0);
+        text-shadow: none;
+        transform: translateY(3px);
+    }
+    50% {
+        color: rgb(255,215,0);
+        text-shadow: 0px 0px 10px white;
+         transform: translateY(-3px);
+    }
+}
+.demosjuegos p{
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+.demosjuegos img{
+    margin-top:1em;
+    width:100%;
+    border:5px solid rgb(255, 228, 152);
+}
+.demosjuegos h2 a{
+    color:inherit;
+
+}
 article{
     display:grid;
     grid-template-columns: 2fr 1fr;
@@ -112,6 +216,11 @@ article .desc{
 
 
 @media screen and (max-width: 1080px) {
+    .demoscontainer{
+        display:flex;
+        flex-direction: column;
+    }
+    
     article{
         display:block;
         width:90%;
@@ -214,28 +323,27 @@ nav a{
     width:calc(25% - 11px);
     height:4em;
     line-height: 4em;
-    background-color: rgba(41, 74, 165, 0.80);
+    background-color:  rgba(70, 77, 92, 0.8);
     color:rgb(255, 255, 255);
-    
-    background-color: rgba(41, 74, 165, 0.80);
+   
     text-align: center;
     font-size: 2em;
     border:5px solid rgb(255, 228, 152);
 }
 
-#musica { 
-    background-image: url('backgrounds/musicaBG.png');
+#eventos { 
+    background-image: url('backgrounds/eventosBG.png');
     text-shadow:2px 2px green;
     background-position: 0% 0%;
     background-attachment: fixed;
 }
-#eventos{
-    background-image:url('backgrounds/eventosBG.png') ;
+#nosotros{
+    background-image:url('backgrounds/nosotrosBG.png') ;
     text-shadow:2px 2px orange;
     background-attachment: fixed;
     background-position: 0% 0%;
 }
-#juegos{
+#media{
     background-image: url('backgrounds/videojuegosBG.png');
     text-shadow:2px 2px purple;
     background-attachment: fixed;
@@ -259,6 +367,7 @@ nav a{
     nav{
         width:90%;
     }
+    
   }
 
 /*----------------FOOTER----------------*/
@@ -266,16 +375,17 @@ nav a{
 footer{
     margin-top: 10px;
     text-align: right;
-    width:calc(90% + 10px);
-    background-color:rgba(255, 223, 223, 0.137) ;
+    width:90%;
+    background-color:rgb(184, 144, 104) ;
     color: #ffeeff;
     font-size: 0.9em;
-    margin: 10px 4% 0 4%;
+    margin-left:5%;
+    padding-right:10px;
 }
 
 @media screen and (max-width: 1080px) {
     footer {
-      margin-top:45vh;
+      margin-top:50em;
     }
   }
 

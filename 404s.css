@@ -1,0 +1,78 @@
+html {
+    background-color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    font-size: large;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+
+
+}
+
+body{
+    
+    margin-left: 10vw;
+    margin-top: 10vh;
+    width:80vw;
+    height:80vh;
+    overflow-y: hidden;
+    background-image: url(letras/IMG_3507.JPG);
+    background-size:cover;
+    /*---animation: changes 4s ease-in-out infinite;--/*/
+}
+
+h1{
+    padding-top:5%;
+    padding-left:5%;
+    color: white;
+}
+h2{
+    padding-left:5%;
+    color: white;
+}
+p{
+    padding-left:5%;
+    width:40%;
+    color: white;
+}
+.return{
+    text-decoration: underline;
+    font-style: italic;
+}
+h3{
+    padding-left:5%;
+    width:40%;
+    color: white;
+}
+
+a{
+    color: rgb(255, 255, 175);
+}
+
+
+@keyframes changes {
+    0% {
+        background-image: url('letras/a.png');
+    }
+    12.5% {
+        background-image: url('letras/b.png');
+    }
+    25% {
+        background-image: url('letras/c.png');
+    }
+    37.5% {
+        background-image: url('letras/d.png');
+    }
+    50% {
+        background-image: url('letras/e.png');
+    }
+    62.5% {
+        background-image: url('letras/f.png');
+    }
+    75% {
+        background-image: url('letras/g.png');
+    }
+    87.5% {
+        background-image: url('letras/h.png');
+    }
+}
